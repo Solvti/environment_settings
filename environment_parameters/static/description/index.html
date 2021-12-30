@@ -1,0 +1,30 @@
+<section class="oe_container">
+    <div class="oe_row oe_spaced">
+        <div class="oe_span12">
+            <h2 class="oe_slogan">Use Environment in parameters</h2>
+            <h3 class="oe_slogan">Do the parameters more secure with Environment Variables</h3>
+        </div>
+
+        <div class="oe_span6">
+            <p class="oe_mt32">
+                Just use self.env['ir.config_parameter'].get_param('key') and if this key is in environment,
+                config-file or in System Parameters - you will get it.
+            </p>
+            <p class="oe_mt32">
+                If you want to use specific environment prefix for the parameter, use
+                self.env['ir.config_parameter'].get_param('key', env_prefix='staging') and it will try to search for
+                'staging_key' in os.getenv
+
+            </p>
+        </div>
+        <div class="oe_span6">
+            <p>
+                Please visit us at <a href="https://solvti.pl">Solvti.pl</a>
+            </p>
+            <p>
+                Icon is made by <a href="https://www.flaticon.com/authors/juicy-fish">Juicy Fish</a>
+            </p>
+        </div>
+    </div>
+</section>
+
